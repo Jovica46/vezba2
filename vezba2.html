@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kreiranje responsive galerije</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale=0.97">
+<style> 
+body {
+   width:98%;
+   height:100%;
+   margin: 25px;
+   padding: 0px;
+   font-family: sans-serif;
+}
+.slike {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+   justify-items: center;
+   grid-gap: 30px;
+   grid-row-gap: 40px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   margin-right: 20px;
+}
+.box {
+   background-color: #f7f7f7 ;
+   box-shadow: 3px 3px 3px black;
+   border-radius: 10px;
+}
+.box img {
+   width: 100%;
+   background-color: #00ace6;
+   color: white;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+}   
+p {
+   margin-right: 20px;
+   font-size: 16px;
+}
+.tekst p {
+   display: grid;
+   margin-left: 20px;
+   font-size: 19px;
+   justify-items: center;
+   margin-bottom: 4px;
+   margin-top: 2px;
+   position: relative;
+}
+@media screen and (max-width: 1024px) {
+  .box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .box {
+    width: 100%;
+  }
+h1 {
+   positio: absolute;
+   text-align: center;
+   margin-right: 25px;
+}
+}
+h1 {
+   font-size: 38px;
+}
+</style>
+	</head>
+	<body>
+	<h1>Gallery Heading</h1>
+ 
+     <div class="slike">
+	   <div class="box"><img src="placeholder-image.png"/><div class="tekst"><p>Image Title</p></div></div>
+	   <div class="box"><img src="placeholder-image.png"/><div class="tekst"><p>Image Title</p></div></div>
+	   <div class="box"><img src="placeholder-image.png"/><div class="tekst"><p>Image Title</p></div></div>
+	   <div class="box"><img src="placeholder-image.png"/><div class="tekst"><p>Image Title</p></div></div>
+	   <div class="box"><img src="placeholder-image.png"/><div class="tekst"><p>Image Title</p></div></div>
+	   <div class="box"><img src="placeholder-image.png"/><div class="tekst"><p>Image Title</p></div></div>
+	   <div class="box"><img src="placeholder-image.png"/><div class="tekst"><p>Image Title</p></div></div>
+	   <div class="box"><img src="placeholder-image.png"/><div class="tekst"><p>Image Title</p></div></div>
+	   <div class="box"><img src="placeholder-image.png"/><div class="tekst"><p>Image Title</p></div></div>
+	   <div class="box"><img src="placeholder-image.png"/><div class="tekst"><p>Image Title</p></div></div>
+	</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor nisl et sem vehicula, eu consequat orci ultrices. Proin convallis tellus ex. Cras vel egestas felis, non rutrum ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sodales et eros sed laoreet. Donec sem tellus, aliquam vitae libero at, dictum varius neque. Integer volutpat justo sit amet elementum euismod. Quisque pulvinar purus a hendrerit dictum. Etiam convallis lectus a risus porttitor interdum. Nullam viverra massa et laoreet hendrerit. Praesent cursus gravida lacus dapibus sollicitudin.Maecenas quis congue massa. Maecenas ut erat eu mi vehicula hendrerit bibendum id sem. Aenean euismod feugiat urna, a pulvinar leo feugiat ac. Proin eget consequat ipsum. Aliquam sit amet lorem ut urna accumsan condimentum. Cras eget libero vel justo eleifend commodo ut et libero. Aliquam nec orci in lorem hendrerit ultrices sit amet eget nulla. Aliquam erat volutpat. Mauris condimentum, ante sed hendrerit mattis, sapien ipsum laoreet augue, id gravida lacus ligula eu odio. Curabitur vel eros ut elit ultricies finibus ac convallis massa. Praesent at mollis justo, eget tincidunt elit. Aenean quam elit, volutpat at orci non, rhoncus porttitor nisi. In ultrices, quam ac efficitur luctus, sapien massa finibus massa, aliquet lobortis tellus est vitae tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+</body>
+</html>	
